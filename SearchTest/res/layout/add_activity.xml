@@ -1,0 +1,140 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+    
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="음식점의 전화번호를 입력해주세요."
+        android:textSize="18dp" />
+    
+     <EditText
+        android:id="@+id/in_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="16"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+    
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="음식점의 이름를 입력해주세요."
+        android:textSize="18dp" />
+    
+      <EditText
+        android:id="@+id/in_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="16"
+        android:inputType="text" >
+
+        <requestFocus />
+    </EditText>
+      
+      <TextView
+        android:id="@+id/texttheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="카테고리를 분류해주세요."
+        android:textSize="18dp" />
+      
+      <Spinner
+        android:id="@+id/theme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:prompt="@string/theme_prompt"
+        />
+      
+      <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="2인기준 얼마정도의 가격입니까?"
+        android:textSize="18dp" />
+      
+       <EditText
+        android:id="@+id/in_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="16"
+        android:inputType="text" >
+
+        <requestFocus />
+    </EditText>
+    
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        />
+        
+         <TextView
+        android:id="@+id/userid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="ID"
+        android:textSize="18dp" />
+         
+         <EditText
+        android:id="@+id/in_userid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="16"
+        android:inputType="text" >
+
+        <requestFocus />
+    </EditText>
+         
+          <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Password"
+        android:textSize="18dp" />
+          
+          <EditText
+        android:id="@+id/in_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="16"
+        android:inputType="text" >
+
+        <requestFocus />
+    </EditText>
+       
+    <Button
+        android:gravity="center_vertical"
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="18dp"
+        android:text="등록" />
+
+
+</LinearLayout>

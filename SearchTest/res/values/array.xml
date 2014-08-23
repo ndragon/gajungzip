@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="theme">
+        <item>양식</item>
+        <item>중식</item>
+        <item>일식</item>
+        <item>치킨</item>
+        <item>피자</item>
+        <item>디저트</item>
+        
+    </string-array>
+</resources>
