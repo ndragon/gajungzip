@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
+    <string name = "prompt_place">지역</string>
     <string-array name="place">
         <item>서울</item>
         <item>부산</item>
@@ -15,6 +16,7 @@
         <item >제주도</item>
     </string-array>
     
+    <string name ="prompt_theme">테마</string>
     <string-array name="theme">
         <item>양식</item>
         <item>중식</item>

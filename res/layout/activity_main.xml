@@ -14,13 +14,19 @@
         android:id="@+id/place"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:drawSelectorOnTop="True"
         android:prompt="@string/place_prompt"
+         />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
          />
 
     <Spinner
         android:id="@+id/theme"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" 
+        android:drawSelectorOnTop="True"
         android:prompt="@string/theme_prompt"
         />
 
